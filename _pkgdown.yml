@@ -1,4 +1,6 @@
 template:
   params:
-    bootswatch: darkly
-    ganalytics: UA-174656700-1
+    bootstrap: darkly
+    ganalytics: UA-175891106-1
+navbar:
+  href: navbar.html
