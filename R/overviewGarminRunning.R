@@ -4,8 +4,7 @@
 #'
 #' @param output from the processGarminRunning function
 #' @param date_from a date processed by as.Date e.g as.Date("2020-03-18"). This is a cut-off data for your analysis. Everything after this will be included in the analysis.
-#' @param plot can be one of "distance", "pace", "dist_pace", "dist_time", "dist_cals", "cumulative_dist",
-#' "pace_per_dist.gp","heart.rate_dist.gp","cadence_dist.gp"
+#' @param plot can be one of "runs_per_loc_per_dist", "distance_per_location", "mean_pace", "pca_plot", and "total_runs"
 #' @param target_time a pace in the form "7:30" (character variable) with "minutes:seconds" that is one previously achieved that you wish to mark on your plots, OR it could be a target pace you have set yourself
 #' @return plot
 #'
