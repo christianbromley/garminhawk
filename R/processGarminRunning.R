@@ -13,7 +13,7 @@
 #'
 #' @export
 
-data <- garmin
+
 processGarminRunning <- function(data){
 
   #check if the required packages are installed
