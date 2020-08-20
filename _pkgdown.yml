@@ -1,0 +1,4 @@
+template:
+  params:
+    bootswatch: darkly
+    ganalytics: UA-174656700-1
