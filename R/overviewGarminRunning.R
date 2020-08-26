@@ -9,6 +9,11 @@
 #' @return plot
 #'
 #' @examples
+#'
+#' #let's process my data so that it's good for R, and tidy for plotting
+#' my_runs <- processGarminRunning(data=garmin)
+#'
+#'
 #' #What about my pace - calculate my mean avg.pace amongst all my runs per location
 #'
 #' overviewGarminRunning(my_runs,
